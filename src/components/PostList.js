@@ -97,7 +97,7 @@ class PostList extends Component {
     const { posts } = this.state;
 
     return (
-      <div className="postList">
+      <div className="postlist">
         {posts.map(post => (
           <PostItem key={post.id} post={post} />
         ))}

@@ -7,11 +7,11 @@ class PostItem extends Component {
     const { author, date } = props;
 
     return (
-      <div className="postItemHeader">
-        <img src={author.avatar} alt="author" />
-        <div className="postItemHeaderDetails">
-          <span className="postItemName">{author.name}</span>
-          <span className="postItemDate">{date}</span>
+      <div className="post-header">
+        <img className="avatar" src={author.avatar} alt="author" />
+        <div className="post-header-details">
+          <span className="post-author">{author.name}</span>
+          <span className="post-date">{date}</span>
         </div>
       </div>
     );
@@ -29,9 +29,10 @@ class PostItem extends Component {
     const { author, date, content, comments } = this.props.post;
 
     return (
-      <div className="postItem">
+      <div className="post">
         {this.postItemHeader({ author, date })}
-        <p>{content}</p>
+        <p class="post-content">{content}</p>
+        <div className="divisor" />
         {this.postItemComments({ comments })}
       </div>
     );
