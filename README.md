@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Desafio 4: 
+  Desafio 4: Facebook Cover
 </h3>
 
 <p align="center">“Não espere para plantar, apenas tenha paciência para colher”!</blockquote>
@@ -29,26 +29,24 @@
 <p align="center">
   <a href="#rocket-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer-iniciando-a-aplicação">Iniciando aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#movie_camera-screenshot">Screenshot</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :rocket: Descrição
 
-A semana Omnistack 10 é um workshop direto ao ponto usando a stack Javascript: [NodeJS](https://nodejs.org/en/), [ReactJS](https://pt-br.reactjs.org), [React Native](https://reactnative.dev/?source=post_page-----6e8a2396eea1----------------------). Durante essa semana é desenvolvido uma aplicação chamada: DevHunter, através da interface WEB, é possível cadastrar um desenvolvedor e o mesmo aparece no dispositivo mobile em tempo real, informando sua localização e lista de tecnologias. Através da aplicação Mobile é possível buscar através do mapa ou filtrar a busca por tecnologias.
-
-Esse repositório tem o código fonte do Frontend Web da aplicação DevHunter.
-
-:heavy_minus_sign: [Aplicação Backend - NodeJS](https://github.com/IgorClemente/omnistack-week-challenge1)
-:heavy_minus_sign: [Aplicação Mobile - React Native](https://github.com/IgorClemente/omnistack-week-challenge3)
+A aplicação Facebook Cover, foi desenvolvida com base na rede social Facebook.
 
 ## :computer: Tecnologias e Ferramentas
 
-- [NodeJS](https://nodejs.org/en/)
 - [ReactJS](https://pt-br.reactjs.org)
-- [React Native](https://reactnative.dev/?source=post_page-----6e8a2396eea1----------------------)
-- [Mongo DB](https://www.mongodb.com)
-- [Socket.io](https://socket.io)
-- [Expo](https://expo.io)
+- [Webpack](https://webpack.js.org)
+- [Webpack DevServer](https://webpack.js.org/configuration/dev-server/)
+- [Babel](https://babeljs.io/docs/en/)
+
+## :movie_camera: Screenshot
+
+![](facebook.png)
 
 ## :hammer: Iniciando aplicação
 
